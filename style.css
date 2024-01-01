@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  position: relative;
+  overflow: hidden;
+  /* width: 100%;
+  height: 100%;
+  display: flex;
+  background: #000; */
+}
+#header{
+  display: flex;
+}
+.navbarL {
+  height: 100px;
+  width: 50%;
+  background-color: #FFFFFF;
+  color: #7B7B7B;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-logo{
+  max-width: 150px;
+  /* height: 130px; */
+  width: 150px;
+
+  /* margin-top: 13px; */
+  margin-left: 40px;
+}
+.nav-item5{
+  align-items: flex-end;
+}
+
+
+
+/* .nav-items{
+  display: flex;
+  justify-content: space-evenly;
+} */
+.navbarR {
+  height: 100px;
+  width: 50%;
+  background-color: #FFFFFF;
+  color: #7B7B7B;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  justify-content: space-evenly;
+}
+#main-div{
+  display: flex;
+  /* justify-content: space-between; */
+}
+#page1 {
+  /* position: absolute; */
+  height: 100vh;
+  width: 100vw;
+  background-color: #fbfbf9;
+  overflow: hidden;
+  display: flex;
+}
+
+#bannerL {
+  position: relative;
+  height: 100vh;
+  width: 50vw;
+  /* background-color: blue; */
+  /* background-image: url(https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2021/03/organic-products-hero.png); */
+  justify-content: center;
+  background-size: cover;
+  /* margin: 50px; */
+}
+#bannerL > img {
+  position: absolute;
+  /* top: 20%;
+    left: 5%; */
+  margin-top: 15%;
+  margin-left: 5%;
+}
+#bannerR {
+  position: relative;
+  height: 100vh;
+  width: 50vw;
+  /* background-color: orange; */
+  /* justify-content: center; */
+
+  /* background-color: orange; */
+  overflow: hidden;
+}
+#bannerR img {
+  margin-top: 25%;
+  margin-bottom: 3%;
+  margin-left: 15%;
+}
+#bannerR > h5 {
+  font-size: 17px;
+  font-family: "Merriweather", serif;
+  margin-bottom: 3%;
+  margin-left: 15%;
+}
+#bannerR > h1 {
+  position: absolute;
+  /* font-size: 52px; */
+  font-size: 3.25rem;
+  /* margin: 0px 0px 20px; */
+  font-family: "Merriweather", serif;
+  line-height: 1.3em;
+  /* margin-top: 22%; */
+  margin-left: 15%;
+}
+#bannerR p {
+  margin-top: 26%;
+  margin-left: 15%;
+  font-family: "Baloo Bhaina 2", cursive;
+  font-family: "Merriweather", serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+#bannerR button {
+  width: 25%;
+  height: 7%;
+  background-color: #0b9612;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 15%;
+  margin-top: 6%;
+}
+/* 
+#below_1{
+  background-color: black;
+  width: 100%;
+} */
+#page2 {
+  /* position: relative; */
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+  margin-bottom: 10%;
+  /* display: flex */
+}
+#pg_2a{
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+#pg2_leaf{
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+#pg2_imgs{
+  display: flex;
+  height: 80%;
+  width: 94%;
+  position: absolute;
+  /* margin-top: 1%; */
+  margin-bottom: 5%;
+  /* padding: 1%; */
+}
+
+#pg2_img1{
+  width: 25%;
+  height: 100%;
+  position: relative;
+  margin: 1%;
+  padding: 4%;
+}
+#pg2_img2{
+  width: 25%;
+  height: 100%;
+  position: relative;
+  margin: 1%;
+  padding: 4%;
+}
+#pg2_img3{
+  width: 25%;
+  height: 100%;
+  position: relative;
+  margin: 1%;
+  padding: 4%;
+}
+#pg2_img4{
+  width: 25%;
+  height: 100%;
+  position: relative;
+  margin: 1%;
+  padding: 4%;
+}
+#bel_pg2 img{
+  margin-left: 40%;
+}
+#page3 {
+  height: 100vh;
+  width: 100vw;
+  background-color: #F8F6F3;
+}
+.img_txt{
+  margin-left: 100px;
+  text-align: center;
+  white-space: nowrap;
+}
+#page3>h3{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+ .canvas {
+    margin: 50px auto 50px;
+    width: 80%;
+    height: 20%;
+    text-align: center;
+  }
+  
+  .button {
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display: inline-block;
+    border-radius: 50px;
+  }
+  
+  #Bharat {
+    background: linear-gradient(#fe7519,#fe7519,white,#00CC00, #00CC00 );
+  }
+  
+  #white {
+    background: white;
+  }
+  #blue {
+    background: blue;
+  }
+  #yellow {
+    background: yellow;
+  }
